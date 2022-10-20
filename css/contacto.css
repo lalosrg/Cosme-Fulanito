@@ -1,0 +1,225 @@
+
+#contacto{
+    background: #fff;
+    width: 100%;
+    height: 1200px;
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+
+}
+
+
+
+#contacto section h2 {
+        top: 45px;
+         color: black;
+        font-size: 35px;
+        text-align: center;
+}
+
+#contacto section p{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#formulario {
+background-color: #eeeded;
+padding: 40px;
+box-shadow: inset 0 1px 5px rgba(0.0.0.0.5);
+box-shadow: 0 0 30px #0a0a0a;
+border-radius: 16px;
+margin-bottom: 50px;
+}
+
+#formulario form{
+text-align: center;
+font-size: 14px;
+margin: 0 auto;
+width: 400px;
+}
+
+
+textarea {
+height: 100px;
+width: 400px;
+}
+
+.campo, textarea{
+background: #b1b1b17a;
+border: 2px solid #070707;
+border-radius: 15px;
+margin-top: 10px;
+margin-bottom: 5px;
+padding: 10px;
+width: 400px;
+}
+
+
+
+.campo:focus, textarea:focus{
+background: #fff;
+outline: none;
+box-shadow: 0 0 22px #f3d424;
+}
+
+.boton{
+margin: 10px;
+background: #080808;
+color: #fff;
+margin-left: 125px;
+padding: 18px;
+width: 155px;
+border-radius: 15px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.boton:hover {
+background-color: #f3d424;
+color: #080808;
+font-weight: bold;
+border: 2px solid;
+}
+
+section .btn_neon{
+    background: #f3d4242f;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 39%;
+    margin-right: 39%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    color: rgb(7, 7, 7);
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn_neon:hover{
+    background: #f3d424cb;
+    border-radius: 10px;
+    transition-delay: 1s;
+}
+
+.btn_neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top:0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#f3d424);
+
+}
+
+.btn_neon:hover #span1{
+    left:100%;
+    transition: 1s;
+
+}
+
+#span3 {
+    bottom: 0;
+    right:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#f3d424);
+
+}
+
+.btn_neon:hover #span3{
+    right:100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+#span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#f3d424);
+
+}
+
+.btn_neon:hover #span2{
+    top:100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#f3d424);
+
+}
+
+.btn_neon:hover #span4{
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+@media screen and (max-width: 822px) {
+    section .btn_neon{
+       margin-left: 30%;
+       margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    section .btn_neon{
+       margin-left: 20%;
+       margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    #formulario form {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    .campo, textarea{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 470px){
+    #formulario form {
+        width: 250px;
+    }
+    textarea {
+        width: 250px;
+    }
+    .campo, textarea{
+        width: 250px;
+    }
+
+}

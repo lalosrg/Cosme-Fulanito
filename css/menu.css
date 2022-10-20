@@ -1,0 +1,94 @@
+.header{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background: #f3d424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90px;
+    padding: 5px 10%;
+
+
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.header .logo img {
+    height: 85px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .logo h1{
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.header .nav_links{
+    list-style: none;
+}
+
+.header .nav_links li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.header .nav_links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav_links a{
+    font-size: 700;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .nav_links li a:hover{
+    transform: scale(1.2);
+}
+
+.header .btn_header button{
+    margin-left: 20px;
+    font-weight: 900;
+    color: #000;
+    padding: 9px 25px;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .btn_header button:hover{
+
+    background: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+

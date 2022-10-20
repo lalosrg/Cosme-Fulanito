@@ -1,0 +1,133 @@
+.divisas{
+    
+    background-color:  #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+    padding: 20px;
+}
+
+.divisas .container-moneda{
+    background: #eeeded;
+    box-shadow: inset 0 1px 5px rgba(0.0.0.0.5);
+    box-shadow: 0 0 30px #0a0a0a;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+
+
+
+.divisas h2{
+    margin-top: 95px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.divisas p{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.divisas .btn{
+    color: white;
+    background: black;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 5px 22px;
+}
+
+.divisas .btn:hover{
+    background-color: #f3d424;
+    color: #080808;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+
+.divisas .moneda{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divisas .moneda select{
+    padding: 10px 20px 10px 10px;
+    background: #bb15157a;
+    border: 0;   
+    font-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.divisas .moneda select:focus{
+    outline: none;
+    box-shadow: 0 0 22px #f3d424;
+}
+
+.divisas .moneda input{
+    background: #b1b1b17a;
+    border: 0;
+    border-radius: 5px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    margin: 10px;
+   
+}
+
+.campo-divisas:focus, textarea:focus{
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 22px #f3d424;
+    }
+
+.divisas .taza-cambio-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divisas .cambio{
+    color: black;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+@media (max-width:840px) {
+    .divisas .container-moneda{
+        width: 55vh;
+    }
+    .divisas .moneda input{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:518px){
+    .divisas .container-moneda{
+        width: 45vh;
+    }
+
+    .divisas .moneda select{
+        font-size: 8px;
+    }
+
+    .divisas .moneda input{
+        font-size: 18px;
+    }
+}

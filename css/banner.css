@@ -1,0 +1,80 @@
+.banner_principal{
+    width: 100%;
+    height: 850px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #2468ac7c, #6b707481), url(../img/775120.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2468ac71, #6b707481), url(../img/775120.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    
+}
+
+.banner_principal h2{
+    text-align: center;
+    font-size: 6rem;
+    top: 350px;
+    
+    text-shadow: 0 0 30px rgb(255, 255, 255); 
+}
+
+.ola {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+@media screen and (max-width: 1920px) {
+    .banner_principal .desa h2{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .banner_principal .desa h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner_principal .desa h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner_principal .desa h2{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

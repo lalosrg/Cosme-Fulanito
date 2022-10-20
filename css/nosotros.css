@@ -1,0 +1,135 @@
+
+
+.media {
+  
+    align-items: center;
+    height: 692px;
+    width: 100%;
+    background: #d68a80;
+    z-index: 1;
+    
+}
+
+
+ 
+.banner-overlay {
+    height: 692px;
+    width: 100%;
+    position: absolute;
+    background: black;
+   opacity: 20%;
+   z-index: 3;
+}
+
+#contenedor-nosotros {
+    width: 100%;
+    background: #fff;
+    align-items: center;
+    height: 750px;
+
+}
+
+#contenedor-nosotros .desc_general h2{
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lalo {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    transition: all 1000ms ease-out;
+}
+
+.lalo .info-lalo{
+    width: 50%;
+    float: left;
+}
+
+.lalo .info-lalo h2{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lalo .info-lalo p{
+    font-size: 12px;
+    text-align: center;
+    margin: 30px;
+}
+
+.lalo .img-lalo{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.lalo .img-lalo img{
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 300px 35px 300px;
+}
+
+.lalo:hover{
+    transform: scale(1.02);
+    transition: all 1000ms ease-out;   
+    background: #f3d4242f;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0,0.8);
+}
+
+.luisma {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    transition: all 1000ms ease-out;
+}
+
+.luisma .info-luisma{
+    width: 50%;
+    float: right;
+}
+
+.luisma .info-luisma h2{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.luisma .info-luisma p{
+    font-size: 12px;
+    text-align: center;
+    margin: 30px;
+}
+
+.lusima .img-luisma{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.luisma .img-luisma img{
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-left: 350px;
+}
+
+.luisma:hover{
+    transform: scale(1.02);
+    transition: all 1000ms ease-out;   
+    background: #f3d4242f;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0,0.9);
+}
+
+
+
+
+
+
