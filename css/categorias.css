@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 1050px;
+    height: auto;
     background: #fff;
 
     
@@ -11,9 +11,6 @@
 
 .contenedor-categorias{
     width: 72%;
-    /*display: flex; */
-    justify-content: center;
-    align-items: center;
     margin-bottom: 75px;
 }
 
@@ -26,7 +23,7 @@
 
 .contenedor-categorias a {
     position: relative;
-    height: 390px;
+    /* height: 390px; */
     /*idth: 450px;*/
     overflow: hidden;
     border-radius: 18px;
@@ -75,10 +72,21 @@
 @media screen and (max-width: 950px) {
     .contenedor-categorias{
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;
+        width: 90%;       
 }
-    .categorias-hijo{
-        display: block;
+    .categorias-hijo .img{
+        display:flex;
+        flex-direction: row;
     }
-    
+
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor-categorias{
+        width: 95%;
+             
+}
+
+        
 }

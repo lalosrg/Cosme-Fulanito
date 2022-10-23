@@ -5,100 +5,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 709px;
+    height: 650px;
     background-color: #95da1534;
-    
+    position: relative;
+    flex-wrap: wrap;
 }
-
-
-
-@media screen and (max-width:1320px) {
-    .equipo{
-        height: 1098px;
-    }
-    
-}
-
-@media screen and (max-width:1308px) {
-    .equipo{
-        height: 1099px;
-    }
-    
-}
-
-@media screen and (max-width:1129px) {
-    .equipo{
-        height: 1117px;
-    }
-}
-
-@media screen and (max-width:858px) {
-    .equipo{
-        height: 1137px;
-    }
-}
-
-@media screen and (max-width:674px) {
-    .equipo{
-        height: 1156px;
-    }
-}
-
-@media screen and (max-width:659px) {
-    .equipo{
-        height: 1936px;
-    }
-}
-
-@media screen and (max-width:597px) {
-    .equipo{
-        height: 1955px;
-    }
-}
-
-@media screen and (max-width:546px) {
-    .equipo{
-        height: 1973px;
-    }
-}
-
-
-@media screen and (max-width:514px) {
-    .equipo{
-        height: 1992px;
-    }
-}
-
-@media screen and (max-width:452px) {
-    .equipo{
-        height: 2011px;
-    }
-}
-
-@media screen and (max-width:430px) {
-    .equipo{
-        height: 2030px;
-    }
-}
-
-@media screen and (max-width:424px) {
-    .equipo{
-        height: 2049px;
-    }
-}
-
-@media screen and (max-width:406px) {
-    .equipo{
-        height: 2068px;
-    }
-}
-
-@media screen and (max-width:386px) {
-    .equipo{
-        height: 2087px;
-    }
-}
-
 
 .equipo h2{
     font-size: 35px;
@@ -115,14 +26,15 @@
 .ola_equipo_dos{
     position: relative;
     width: 100%;   
-    bottom: 0px;     
+    margin-bottom: 0; 
+
 }
 
 
 .card {
     position: relative;
-    width: 300px;
-    height: 360px;
+    width: 230px;
+    height: 280px;
     margin: 15px;  
   
     cursor: pointer;
@@ -192,13 +104,14 @@
 }
 
 .card .back h3 {
-    font-size: 30px;
+    font-size: 15px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
 
 .card .back p {
     letter-spacing: 1px;
+    font-size: 13px;
 }
 
 .card:hover .front {
@@ -211,4 +124,85 @@
 
 
 
+@media screen and (max-width:1137px) {
+    .equipo{
+        height: 669px;
+    }
+}
 
+@media screen and (max-width: 1039px) {
+    .equipo{
+        height: 980px;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .equipo{
+        height: 999px;
+    }
+}
+@media screen and (max-width: 695px) {
+    .equipo{
+        height: 1018px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .equipo{
+        height: 1037px;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .equipo{
+        height: 1056px;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .equipo{
+        height: 1676px;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .equipo{
+        height: 1696px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .equipo{
+        height: 1714px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .equipo{
+        height: 1733px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .equipo{
+        height: 1753px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .equipo{
+        height: 1770px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .equipo{
+        height: 1789px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .equipo{
+        height: 1808px;
+    }
+}

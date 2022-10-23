@@ -8,7 +8,7 @@
     align-items: center;
     flex-wrap: wrap;
     height: 90px;
-    padding: 5px 10%;
+    padding: 5px 3%;
 
 
 }
@@ -18,8 +18,10 @@
     margin-right: auto;
     color: #000;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
+    border-bottom: #fff;
+
     
     
 }
@@ -30,6 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    left:5px;
 }
 
 .header .logo h1{
@@ -49,7 +52,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 15px;
+    padding: 12px;
+    font-size: 15px;
 }
 
 .header .nav_links li:hover{
@@ -57,7 +61,7 @@
 }
 
 .header .nav_links a{
-    font-size: 700;
+    font-size: 15px;
     color: #000;
     text-decoration: none;
     justify-content: center;
@@ -72,9 +76,9 @@
 .header .btn_header button{
     margin-left: 20px;
     font-weight: 900;
-    color: #000;
+    color: #fff;
     padding: 9px 25px;
-    background: #fff;
+    background: #7405b4;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -82,13 +86,92 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 8px;
 }
 
 .header .btn_header button:hover{
 
-    background: #000;
+    background: rgb(189, 14, 14);
     color: #fff;
     transform: scale(1.1);
 }
 
+.menu-icono img{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f3d424;
+    float: right;
+
+}
+
+.menu-icono, #check{
+    display: none;
+}
+
+@media (max-width:950px){
+    .menu-ham{
+
+        display: block;
+    }
+    .menu-icono{
+
+        display: block;
+        position: fixed;
+        top:20px;
+        right: 20px;
+
+    }
+    .header ul{
+        display:flex;
+        position: fixed;
+        top: 70px;
+        background-color: #f3d424;
+        left:-100%;
+        width: 30%;
+        align-items:flex-end;
+        margin: 0;
+
+    }
+
+    .header .logo{
+        left: 5px;
+
+    }
+
+    .nav_resp li{
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+
+    }
+
+    .nav_resp ul li{
+        display: flex;
+        justify-content: right;
+        padding: 34rem;
+
+
+    }
+
+    #check:checked ~ ul{
+        left:0;
+
+    }
+
+    .nav_resp .nav_links{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-top: 19px;
+        margin-left: 70%;
+        transition-duration: 0.8s;
+    }
+
+
+}
 

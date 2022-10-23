@@ -81,6 +81,10 @@
 
 }
 
+.descripcion p{
+    font-size: 12px;
+}
+
 .card_venta .detalles{
     position: relative;
     min-width: 350px;

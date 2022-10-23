@@ -24,7 +24,8 @@
 
 .reseña .info-reseña p{
     text-align: center;
-    margin: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
     margin-bottom: 50px;
 }
 
@@ -147,11 +148,45 @@ translateZ(300px);}
         font-size: 14px;
     }
     .content-all{
-        width: 130px;
+        width: 150px;
         perspective: 2500px;
     }
     .content-carousel figure{
-        height: 80px;
+        height: 100px;
+    }
+
+    .content-carousel figure:nth-child(1){transform: rotateY(0deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(2){transform: rotateY(40deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(3){transform: rotateY(80deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(4){transform: rotateY(120deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(5){transform: rotateY(160deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(6){transform: rotateY(200deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(7){transform: rotateY(240deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(8){transform: rotateY(280deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(9){transform: rotateY(320deg)
+        translateZ(210px);}
+        .content-carousel figure:nth-child(10){transform: rotateY(360deg)
+        translateZ(210px);}
+}
+
+@media screen and (max-width: 466px){
+    .reseña  .info-reseña p{
+        font-size: 14px;
+    }
+    .content-all{
+        width: 125px;
+        perspective: 2500px;
+    }
+    .content-carousel figure{
+        height: 84px;
     }
 
     .content-carousel figure:nth-child(1){transform: rotateY(0deg)
