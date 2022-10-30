@@ -115,7 +115,7 @@
     display: none;
 }
 
-@media (max-width:950px){
+@media (max-width:995px){
     .header .logo h1{
         font-size: 15px;
     }
