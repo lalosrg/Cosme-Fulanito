@@ -123,7 +123,7 @@ select:focus, input:focus, button:focus{
 
 @media (max-width:518px){
     .divisas .container-moneda{
-        width: 54vh;
+        width: 52vh;
     }
 
     .divisas .moneda select{
