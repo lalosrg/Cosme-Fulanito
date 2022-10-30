@@ -134,3 +134,15 @@ select:focus, input:focus, button:focus{
         font-size: 20px;
     }
 }
+
+@media (max-width:450px){
+    .divisas{
+        height: 650px;
+    }
+}
+
+@media (max-width:405px){
+    .divisas{
+        height: 680px;
+    }
+}

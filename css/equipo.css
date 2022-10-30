@@ -163,6 +163,12 @@
     .equipo{
         height: 1676px;
     }
+    .ola_equipo{
+        display: none;
+    }
+    .ola_equipo_dos{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 502px) {
@@ -204,5 +210,11 @@
 @media screen and (max-width: 365px) {
     .equipo{
         height: 1808px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .equipo{
+        height: 1827px;
     }
 }

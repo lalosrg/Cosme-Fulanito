@@ -29,6 +29,7 @@ body{
             box-sizing: border-box;
 }
 
+
 .btn-wsp{
     position: absolute;
     width: 50px;
@@ -115,31 +116,28 @@ body{
 }
 
 @media screen and (max-width:1182px) {
+
+
     .btn-wsp{
         position: absolute;
         margin-top: 50px;
         
     }
-
-}@media screen and (max-width:1182px) {
     .btn-flan{
         position: absolute;
         margin-top: 50px;
-        
     }
+    .btn-esp{
+        position: absolute;
+        margin-top: 50px;
+    }
+
 }
 
 
 .contenedor {
     width: 98%;
     margin: auto;
-}
-
-
-
-h1 {
-    float: left;
-    font-size: 16px;
 }
 
 
