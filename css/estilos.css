@@ -67,7 +67,6 @@ body{
     font-size: 35px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
     z-index: 1;
-    transition: all 1s;
 }
 
 .btn-flan img{
@@ -75,6 +74,7 @@ body{
     height: 50px;
     line-height: 55px;
     border-radius: 50px;
+    transition: all 1s;
 }
 
 .btn-flan img:hover{
